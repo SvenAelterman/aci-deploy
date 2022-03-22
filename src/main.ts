@@ -57,7 +57,7 @@ async function main() {
 			"name": taskParams.containerName,
 			"subnetIds": [
 				{
-					"id": "/subscriptions/e781198c-6f6d-4994-b688-6e8e34c63c79/resourceGroups/rg-reproducibility-demo-eastus-01/providers/Microsoft.Network/virtualNetworks/vnet-reproducibility-demo-eastus-01/subnets/aci"
+					"id": taskParams.subnetId
 				}
 			]
 		}

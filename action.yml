@@ -121,7 +121,7 @@ inputs:
     description: 'List of secure environment variables for the container. Space seperated values in "key=value" format'
     default: ""
     required: false
-  subnetId:
+  subnet-id:
     description: "The Azure resource ID of a subnet delegated to Microsoft.ContainerInstance/containerGroups"
     default: ""
     required: false
