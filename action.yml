@@ -31,7 +31,7 @@ inputs:
   cpu:
     description: "Number of CPU Cores Required"
     required: false
-    default: 1
+    default: "1"
   dns-name-label:
     description: "The DNS Name Label for Container with Public IP"
     required: false
